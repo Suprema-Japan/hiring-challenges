@@ -119,9 +119,9 @@ RABBITMQ_VHOST=/  # or your virtual host
 ### 3. Backend Implementation
 
 We provide example implementations in:
-- **PHP 8+**: `backend/php/RabbitMQClient.php`
-- **Python 3.9+**: `backend/python/rabbitmq_client.py`
-- **TypeScript 4.9+**: `backend/typescript/rabbitmqClient.ts`
+- **PHP 8+**: [`backend/php/RabbitMQClient.php`](rabbitmq-challenge/backend/php/RabbitMQClient.php)
+- **Python 3.9+**: [`backend/python/rabbitmq_client.py`](rabbitmq-challenge/backend/python/rabbitmq_client.py)
+- **TypeScript 4.9+**: [`backend/typescript/rabbitmqClient.ts`](rabbitmq-challenge/backend/typescript/rabbitmqClient.ts)
 
 **You can:**
 - Use these as reference implementations
@@ -148,9 +148,9 @@ You have the option to create a frontend interface:
 ## 🧪 Testing Requirements
 
 We provide example test suites in:
-- **PHP**: `tests/php/RabbitMQClientTest.php` (PHPUnit)
-- **Python**: `tests/python/test_rabbitmq_client.py` (pytest)
-- **TypeScript**: `tests/typescript/rabbitmqClient.test.ts` (Jest)
+- **PHP**: [`tests/php/RabbitMQClientTest.php` (PHPUnit)](rabbitmq-challenge/tests/php/RabbitMQClientTest.php)
+- **Python**: [`tests/python/test_rabbitmq_client.py` (pytest)](rabbitmq-challenge/tests/python/test_rabbitmq_client.py)
+- **TypeScript**: [`tests/typescript/rabbitmqClient.test.ts` (Jest)](rabbitmq-challenge/tests/typescript/rabbitmqClient.test.ts)
 
 ### Test Coverage Requirements
 
