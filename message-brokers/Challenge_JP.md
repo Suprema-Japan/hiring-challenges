@@ -119,9 +119,9 @@ RABBITMQ_VHOST=/  # 仮想ホスト
 ### 3. バックエンド実装
 
 以下の言語で例を提供しています：
-- **PHP 8+**: `backend/php/RabbitMQClient.php`
-- **Python 3.9+**: `backend/python/rabbitmq_client.py`
-- **TypeScript 4.9+**: `backend/typescript/rabbitmqClient.ts`
+- **PHP 8+**: [`backend/php/RabbitMQClient.php`](rabbitmq-challenge/backend/php/RabbitMQClient.php)
+- **Python 3.9+**: [`backend/python/rabbitmq_client.py`](rabbitmq-challenge/backend/python/rabbitmq_client.py)
+- **TypeScript 4.9+**: [`backend/typescript/rabbitmqClient.ts`](rabbitmq-challenge/backend/typescript/rabbitmqClient.ts)
 
 **以下のいずれかを選択できます：**
 - これらを参考実装として使用
@@ -148,9 +148,9 @@ customer_dlq         - 失敗した操作用のデッドレターキュー
 ## 🧪 テスト要件
 
 以下の言語でテストスイートの例を提供しています：
-- **PHP**: `tests/php/RabbitMQClientTest.php` (PHPUnit)
-- **Python**: `tests/python/test_rabbitmq_client.py` (pytest)
-- **TypeScript**: `tests/typescript/rabbitmqClient.test.ts` (Jest)
+- **PHP**: [`tests/php/RabbitMQClientTest.php` (PHPUnit)](rabbitmq-challenge/tests/php/RabbitMQClientTest.php)
+- **Python**: [`tests/python/test_rabbitmq_client.py` (pytest)](rabbitmq-challenge/tests/python/test_rabbitmq_client.py)
+- **TypeScript**: [`tests/typescript/rabbitmqClient.test.ts` (Jest)](rabbitmq-challenge/tests/typescript/rabbitmqClient.test.ts)
 
 ### テストカバレッジ要件
 
